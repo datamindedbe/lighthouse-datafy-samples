@@ -121,12 +121,15 @@ idna==2.8
 ijson==2.6.1
     # via snowflake-connector-python
 importlib-metadata==1.7.0
-    # via jsonschema
+    # via
+    #   jsonschema
+    #   pluggy
+    #   pytest
 isodate==0.6.0
     # via
     #   agate
     #   dbt-core
-jinja2==2.11.2
+jinja2==2.11.3
     # via dbt-core
 jmespath==0.9.4
     # via
