@@ -121,7 +121,10 @@ idna==2.8
 ijson==2.6.1
     # via snowflake-connector-python
 importlib-metadata==1.7.0
-    # via jsonschema
+    # via
+    #   jsonschema
+    #   pluggy
+    #   pytest
 isodate==0.6.0
     # via
     #   agate
@@ -205,7 +208,7 @@ pytz==2020.1
     #   babel
     #   google-api-core
     #   snowflake-connector-python
-pyyaml==5.3.1
+pyyaml==5.4
     # via dbt-core
 requests==2.22.0
     # via
