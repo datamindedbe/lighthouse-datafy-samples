@@ -20,6 +20,10 @@ entrypoints==0.3
     # via flake8
 flake8==3.7.9
     # via -r dev-requirements.in
+importlib-metadata==4.0.0
+    # via
+    #   pluggy
+    #   pytest
 mccabe==0.6.1
     # via flake8
 more-itertools==8.0.2
@@ -36,7 +40,7 @@ pluggy==0.13.1
     # via pytest
 py4j==0.10.9
     # via pyspark
-py==1.8.1
+py==1.10.0
     # via pytest
 pycodestyle==2.5.0
     # via flake8
@@ -66,5 +70,9 @@ toml==0.10.0
     # via black
 typed-ast==1.4.0
     # via black
+typing-extensions==3.7.4.3
+    # via importlib-metadata
 wcwidth==0.1.8
     # via pytest
+zipp==3.4.1
+    # via importlib-metadata
