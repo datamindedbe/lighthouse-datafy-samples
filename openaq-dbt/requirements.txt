@@ -121,7 +121,10 @@ idna==2.8
 ijson==2.6.1
     # via snowflake-connector-python
 importlib-metadata==1.7.0
-    # via jsonschema
+    # via
+    #   jsonschema
+    #   pluggy
+    #   pytest
 isodate==0.6.0
     # via
     #   agate
@@ -248,7 +251,7 @@ text-unidecode==1.3
     # via python-slugify
 typing-extensions==3.7.4.2
     # via dbt-core
-urllib3==1.25.7
+urllib3==1.25.8
     # via
     #   botocore
     #   dbt-snowflake
