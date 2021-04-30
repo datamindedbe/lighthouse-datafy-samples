@@ -121,7 +121,10 @@ idna==2.8
 ijson==2.6.1
     # via snowflake-connector-python
 importlib-metadata==1.7.0
-    # via jsonschema
+    # via
+    #   jsonschema
+    #   pluggy
+    #   pytest
 isodate==0.6.0
     # via
     #   agate
@@ -215,7 +218,7 @@ requests==2.22.0
     #   google-api-core
     #   minimal-snowplow-tracker
     #   snowflake-connector-python
-rsa==4.6
+rsa==4.7
     # via google-auth
 s3transfer==0.3.1
     # via boto3
