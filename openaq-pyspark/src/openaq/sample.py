@@ -22,6 +22,10 @@ def run(spark: SparkSession, environment: str, date: str):
     load_data(spark, transformed)
 
 
+def read_loaded_data_from_s3(spark: SparkSession):
+    return spark.read.parquet(f"s3://datafy-training/opanq_pyspark/")
+
+
 def extract_data(spark: SparkSession, date: str) -> DataFrame:
     """Load data from a source
 
