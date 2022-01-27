@@ -1,0 +1,13 @@
+docker:
+  path: .
+id: 5f1cf4fa-f931-49dc-a6c8-5e7412a1cfab
+name: samples-housing
+resources:
+  path: resources
+streaming:
+  filename: streaming.yaml
+template: ""
+version: "0.3"
+workflows:
+  path: dags
+  version: "2"
