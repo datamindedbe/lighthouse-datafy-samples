@@ -106,7 +106,7 @@ pathos==0.2.8
     # via sagemaker
 pg8000==1.21.3
     # via awswrangler
-pillow==9.0.0
+pillow==9.0.1
     # via matplotlib
 ply==3.11
     # via jsonpath-ng
@@ -177,7 +177,7 @@ six==1.15.0
     #   protobuf3-to-dict
     #   python-dateutil
     #   requests-aws4auth
-smdebug_rulesconfig==1.0.1
+smdebug-rulesconfig==1.0.1
     # via sagemaker
 soupsieve==2.3.1
     # via beautifulsoup4
