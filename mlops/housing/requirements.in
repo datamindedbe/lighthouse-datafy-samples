@@ -12,3 +12,4 @@ seaborn
 statsmodels
 sagemaker
 pandera
+pandera[io]
