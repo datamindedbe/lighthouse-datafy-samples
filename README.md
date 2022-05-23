@@ -1,4 +1,7 @@
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedbe/lighthouse-datafy-samples)
+
+[Deprecated] This repo is no longer used, all new development is done on: https://github.com/datamindedbe/conveyor-samples
 
 # lighthouse-datafy-samples
 This repository contains a number of sample projects for Datafy 
